@@ -1,5 +1,1 @@
-pandas>=2.2
-numpy>=1.26
-yfinance>=0.2.66
-streamlit>=1.40
-plotly>=5.24
+pandas>=2.2\nnumpy>=1.26\nyfinance>=0.2.66\nfinance-datareader>=0.9.96\nstreamlit>=1.40\nplotly>=5.24\n
