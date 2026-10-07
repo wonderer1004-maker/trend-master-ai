@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from .core import enrich
+from core import enrich
 
 def backtest(df, cash=10_000_000, risk_pct=.01, breakout=55, fee=.00015, slippage=.0005):
     d=enrich(df).dropna().copy(); money=float(cash); qty=0; stop=np.nan; trades=[]; equity=[]; entry=None
